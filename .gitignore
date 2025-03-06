@@ -1,0 +1,10 @@
+#git으로 관리할 필요가 없는 폴더나 파일을 여기에 추가
+#.gitignore 파일 경로를 기준 상대적으로 경로 작성해야함
+#gitignore.io는 기본적인 .gitignore 파일 생성해줌
+#Logs
+logs
+#.log
+npm-debug.log*
+#Dependency directories
+node_modules/
+#Runtime data
